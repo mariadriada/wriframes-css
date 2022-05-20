@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  width: 1024px;
+  background-color: white;
+  min-height: 800px;
+  margin: 0 auto;
+  display: table;
+}
+
+.header {
+  height: 100px;
+  display: table;
+  width: 1024px;
+  background-color: blue;
+}
+
+.logo {
+  display: inline-block;
+  height: 100px;
+}
+
+.logo img {
+  width: 150px;
+  margin-left: 20px;
+}
+
+.menu {
+  display: table-cell;
+  min-width: 800px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.menu ul {
+  display: inline-block;
+  margin-left: 250px;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.menu button {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* .section: Esto es un selector*/
+.section {
+  width: 1024px;
+  height: 400px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.section1 {
+  background-color: bisque;
+  /*margin: 50px
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 50px;*/
+}
+
+.section2 {
+  background-color: greenyellow;
+}
+
+.section3 {
+  background-color: rosybrown;
+}
+
+.row {
+  display: table-row;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 130px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.draw {
+  height: 450px;
+  position: relative;
+}
+
+.circle {
+  border: 1px solid black;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  position: absolute;
+}
+
+#circle1 {
+  top: 100px;
+  left: 300px;
+}
+
+#circle2 {
+  top: 170px;
+  left: 450px;
+}
+
+.section5 div {
+}
